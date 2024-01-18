@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My_Activity</string>
+    <string name="current_state">Current State:</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="currentstate">Current State:</string>
+    <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+    <string name="Stop">Stop</string>
+</resources>

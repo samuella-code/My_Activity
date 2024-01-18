@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/ps"
+
+    >
+
+<TextView
+    android:id="@+id/stateTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:fontFamily="sans-serif"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="40dp"
+    android:textAllCaps="true"
+    android:text="@string/currentstate" />
+
+<Button
+    android:id="@+id/startButton"
+    android:layout_width="313dp"
+    android:layout_height="62dp"
+    android:text="@string/Start"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="@color/black"
+    android:background="@drawable/but"
+    android:padding="16dp"
+    android:textAllCaps="true"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp" />
+
+<Button
+    android:id="@+id/pauseButton"
+    android:layout_width="313dp"
+    android:layout_height="62dp"
+    android:text="@string/Pause"
+    android:gravity="center"
+    android:textAllCaps="true"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:layout_marginTop="20dp"
+  android:background="@drawable/but"
+   />
+
+<Button
+    android:id="@+id/stopButton"
+    android:layout_width="313dp"
+    android:layout_height="62dp"
+    android:text="@string/Stop"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textAllCaps="true"
+    android:background="@drawable/but"
+    android:backgroundTint="@color/black"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp" />
+
+</LinearLayout>
+</ScrollView>
